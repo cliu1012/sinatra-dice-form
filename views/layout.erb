@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Dice Roll</title>
+    <title>Sinatra Dice Form</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
 
-  <h1>Dice Roll</h1>
-  
   <body>
-   <form action=/process-form> 
-    <label for="dice-number">Number of dice to roll?</label>
-    <input id="dice-number" name="count">
-    <label for="sides-per-die">How many sides per die?</label>
-    <input id="sides-per-die" name="sides">
-    <button>Roll!</button>
-   </form>
+    <%= yield %>
   </body>
 </html>
